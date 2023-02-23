@@ -55,6 +55,7 @@ class Man extends User {
 
   Man({required this.team, required String name}) : super(name: name);
 
+  // * @override를 이용해 부모 클래스의 객체를 받아올 수 있다.
   @override
   void sayHello() {
     super.sayHello();

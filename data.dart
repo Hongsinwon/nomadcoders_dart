@@ -72,9 +72,10 @@ void main() {
   ];
 
   // * set :Set에 속한 모든 아이템들이 유니크해야될 때 사용한다. 유니크할 필요가 없다면 List를 사용하면 된다.
-  var number1 = {1, 2, 3, 4};
+  var number1 = {1, 2, 3, 4}; //set
+  Set<int> number2 = {1, 2, 3, 4}; //set
   var number11 = [1, 2, 3, 4];
-  Set<int> number2 = {1, 2, 3, 4};
+
   number1.add(5);
   number1.add(6);
   number1.add(7);
@@ -82,6 +83,6 @@ void main() {
   number11.add(6);
   number11.add(7);
 
-  print(number1); // 1, 2, 3, 4
-  print(number11); // 1, 2, 3, 4, 5, 6, 7
+  print(number1); // {1, 2, 3, 4}
+  print(number11); // [1, 2, 3, 4, 5, 6, 7]
 }
