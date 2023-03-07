@@ -43,7 +43,7 @@
    // var = 함수나 메소드 내부에 지역변수를 선언할 때 
     var name1 = '신원';
     name1 = 'sinwon';
-      ```
+   ```
  
  </br>
  
@@ -53,7 +53,7 @@
    ```javascript
     var name1 = '신원';
     name1 = 'sinwon';
-       ```
+   ```
        
 </br>
  
@@ -66,7 +66,7 @@
   name4 = 'sinwon'; // 'sinwon'
   name4 = 12; // 12
   name4 = true; // true
-       ```
+  ```
        
 </br>
  
@@ -81,7 +81,7 @@
   if (sinwon != null) {
     sinwon.isNotEmpty;
   }
-       ```
+  ```
    
    
 </br>
@@ -94,7 +94,7 @@
    // final: 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입력값)
     final top = 'dog';
     final String doma = 'dog';
-       ```
+    ```
        
 </br>
        
@@ -104,6 +104,63 @@
    ```javascript
    // const: 컴파일 시점에 바뀌지 않는 값 (상수)
     const redC = 'game';
-       ```
+   ```
+ 
+ </br>
  
  
+ ## Dart의 기본타입
+ 
+   </br>
+  
+- [기본타입]
+
+
+   ```javascript
+  String name = 'sinwon';
+  bool alive = true;
+  int age = 31; // 정수
+  double money = 69.99; // 소수점
+  num x = 1; // ALL
+  x = 1.1;
+   ```
+ 
+ </br>
+ 
+ - [배열]
+
+
+   ```javascript
+    var numbers1 = [1, 2, 3, 4];
+    List<int> numbers2 = [1, 2, 3, 4];
+   ```
+ 
+ </br>
+ 
+- [객체]
+
+
+   ```javascript
+    var player = {
+    'name': 'sinwon',
+    'xp': 19.99,
+    'superpower': false,
+    };
+  
+      Map<int, bool> player1 = {
+    1: true,
+    2: false,
+    };  
+   ```
+ 
+ </br>
+ 
+- [혼합]
+
+
+   ```javascript
+     List<Map<String, Object>> all = [
+    {'name': 'nico', 'age': 45, 'xp': 9999.9999},
+    {'name': 'sinwon', 'age': 31, 'xp': 19999.9999},
+  ];
+   ```
