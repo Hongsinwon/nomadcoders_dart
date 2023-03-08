@@ -23,9 +23,10 @@
 
 </br>
 
-- 모든 것들이 전부 Object로 취급합니다.
-- List<int>, List<dynamic> 같은 제너릭 type을 지원합니다.
-- Types 언어지만 자유도가 존재합니다.
+- 모든 것들이 전부 Object로 취급합니다. 이것은 다트만으로 시각적 사용자 경험(UX)을 쉽게 작성 할 수 있게 해주며, markup language는 필요치 않습니다.
+- JIT(Just In Time)컴파일과 AOT(Ahead Of Time)컴파일을 모두 지원합니다.
+- 생산적이고 예측 가능한 언어이다. 배우기 쉽고 친숙하다. 여러분이 동적언어(dynamic language)를 사용해 왔든 정적언어(static language)를 사용해 왔든 쉽게 시작 할 수 있습니다.
+- List<int>, List<dynamic> 같은 제너릭 type을 지원합니다. 하지만 Types 언어지만 자유도가 존재합니다.
 - Public, privatem protected 의 정의가 없으며, _funtion() 으로 정의가 됩니다.
   
   </br>
